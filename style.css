@@ -38,7 +38,7 @@
 
 /* MAIN */
 .main {
-  padding: 15vh 10vw;
+  padding: 10vw;
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@
 
 .main-box1 button {
   align-self: start;
-  padding: 4px 20px;
+  padding: 4px 25px;
   color: #e5e7eb;
   font-size: 16px;
   font-weight: bold;
@@ -93,4 +93,37 @@
   height: 100%;
   color: #e5e7eb;
   font-size: 18px;
+}
+
+/* SECTION 1*/
+.section1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 15vw;
+  align-items: center;
+}
+
+.random-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.random-box-content {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 25%;
+  max-width: 150px;
+}
+.random-box {
+  border: 3px solid #357ced;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  aspect-ratio: 1;
+  min-width: 150px;
+  margin: 4vh 0 2vh 0;
+  box-sizing: border-box;
 }
