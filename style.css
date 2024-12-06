@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  /* border: 1px solid salmon; */
+  border: 1px solid salmon;
 }
 
 /* NAV */
@@ -126,4 +126,32 @@
   min-width: 150px;
   margin: 4vh 0 2vh 0;
   box-sizing: border-box;
+}
+
+/*QUOTE*/
+.quote {
+  padding: 15vh 25vw 10vh 25vw;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.quote-content h3 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.quote-content h4 {
+  padding-top: 1vh;
+  text-align: right;
+  font-weight: bold;
+  color: #1f2937;
 }
